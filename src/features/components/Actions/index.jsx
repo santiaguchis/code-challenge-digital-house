@@ -2,10 +2,7 @@ import { useContext } from 'react';
 import { View } from 'react-native';
 
 import { AppContext } from 'src/contexts';
-import {
-  Button,
-  Separator
-} from 'src/core/components';
+import { Button, Separator } from 'src/core/components';
 import { useFiltered } from 'src/hooks/useFiltered';
 
 import styles from './styles';
@@ -19,7 +16,7 @@ export const Actions = () => {
     filterSelected, 
     setFilterSelected,
   } = useContext( AppContext );
-  const { isLoading, loadFilter } = useFiltered()
+  const { loadFilter } = useFiltered()
   
   const handleFiltered = ( filter ) => {
     setFilterSelected(filter)

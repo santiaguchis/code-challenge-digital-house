@@ -18,8 +18,6 @@ const Page = ({
   )
 }
 
-export default Page;
-
 export {
   Page
 }

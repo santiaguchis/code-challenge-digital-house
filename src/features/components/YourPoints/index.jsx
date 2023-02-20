@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { Text, View } from 'react-native';
-import Card from 'src/core/components/Card';
-import ListHeader from 'src/core/components/ListHeader';
+import { Card, ListHeader } from 'src/core/components';
 import { 
   toNumberFormat
 } from 'src/core/utils';

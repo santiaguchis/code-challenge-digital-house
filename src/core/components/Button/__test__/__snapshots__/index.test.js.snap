@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button core/component Check snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#334FFA",
+      "borderRadius": 10,
+      "flex": 1,
+      "height": 50,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontSize": 12,
+        "fontWeight": "800",
+        "lineHeight": 16,
+      }
+    }
+    testID="text-button"
+  >
+    Hello
+  </Text>
+</View>
+`;

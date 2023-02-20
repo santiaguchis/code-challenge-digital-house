@@ -14,8 +14,6 @@ const Card = ({ style = {}, children }) => {
   )
 }
 
-export default Card;
-
 export {
   Card
 }

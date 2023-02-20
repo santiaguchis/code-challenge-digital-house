@@ -12,8 +12,6 @@ const Space = ({ style = {} }) => {
   )
 }
 
-export default Space;
-
 export {
   Space
 }

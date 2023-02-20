@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card core/component Check snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 20,
+        "padding": 20,
+        "shadowColor": "#000000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.75,
+        "shadowRadius": 4,
+      },
+      {},
+    ]
+  }
+>
+  <Text>
+    Hello Card
+  </Text>
+</View>
+`;

@@ -21,9 +21,6 @@ List.propTypes = {
   items: PropTypes.array,
 }
 
-export default List;
-
-
 export {
   List
 }

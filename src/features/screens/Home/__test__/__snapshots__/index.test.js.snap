@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> features/screens Check snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#F8F8F8",
+      "flex": 1,
+      "marginTop": null,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingHorizontal": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={{}}
+    >
+      <Text
+        style={
+          {
+            "color": "#000000",
+            "fontSize": 20,
+            "fontWeight": "800",
+            "lineHeight": 27.32,
+          }
+        }
+      >
+        Bienvenido de vuelta!
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 21.86,
+          }
+        }
+      >
+        Ruben
+         
+        Rodriguez
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "height": 20,
+          "width": 0,
+        }
+      }
+      testID="separator"
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "gap": 10,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "marginBottom": 10,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9B9898",
+              "fontSize": 14,
+              "fontWeight": "800",
+              "lineHeight": 19.12,
+              "textTransform": "uppercase",
+            }
+          }
+          testID="text-element"
+        >
+          Tus puntos
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "padding": 20,
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.75,
+              "shadowRadius": 4,
+            },
+            [
+              {
+                "backgroundColor": "#334FFA",
+                "paddingBottom": 40,
+                "width": "80%",
+              },
+              {
+                "shadowColor": "#000000",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.75,
+                "shadowRadius": 4,
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "800",
+              "lineHeight": 21.86,
+            }
+          }
+        >
+          Diciembre
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "lineHeight": 43.71,
+              "textAlign": "center",
+            }
+          }
+        >
+          0
+           pts
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "height": 20,
+          "width": 0,
+        }
+      }
+      testID="separator"
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "marginBottom": 10,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#9B9898",
+              "fontSize": 14,
+              "fontWeight": "800",
+              "lineHeight": 19.12,
+              "textTransform": "uppercase",
+            }
+          }
+          testID="text-element"
+        >
+          Tus movimientos
+        </Text>
+      </View>
+      <ActivityIndicator
+        size="large"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#334FFA",
+            "borderRadius": 10,
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 12,
+              "fontWeight": "800",
+              "lineHeight": 16,
+            }
+          }
+          testID="text-button"
+        >
+          Ganados
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "height": 0,
+            "width": 20,
+          }
+        }
+        testID="separator"
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#334FFA",
+            "borderRadius": 10,
+            "flex": 1,
+            "height": 50,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 12,
+              "fontWeight": "800",
+              "lineHeight": 16,
+            }
+          }
+          testID="text-button"
+        >
+          Canjeados
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

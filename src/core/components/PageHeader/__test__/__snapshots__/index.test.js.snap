@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader core/component Check snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#CFD6FF",
+      "height": 150,
+      "justifyContent": "flex-end",
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 24,
+        "fontWeight": "800",
+        "lineHeight": 24,
+      }
+    }
+  >
+    Hello Page Header
+  </Text>
+</View>
+`;

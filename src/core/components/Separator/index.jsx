@@ -6,7 +6,7 @@ const Separator = ({
   height,
 }) => {
   return (
-    <View style={{ width, height }} />
+    <View testID='separator' style={{ width, height }} />
   )
 }
 
@@ -19,9 +19,6 @@ Separator.propTypes = {
   width: PropTypes.number,
   height: PropTypes.number,
 }
-
-export default Separator;
-
 
 export {
   Separator

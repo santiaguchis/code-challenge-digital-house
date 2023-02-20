@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page core/component Check snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#F8F8F8",
+      "flex": 1,
+      "marginTop": null,
+    }
+  }
+>
+  <View>
+    <Text>
+      Hello Page
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

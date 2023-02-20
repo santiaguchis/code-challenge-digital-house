@@ -16,7 +16,10 @@ const ListHeader = ({ textToUpper, children }) => {
   }
   return (
     <View style={ container }>
-      <Text style={ titleStyle }>
+      <Text 
+        testID='text-element'
+        style={ titleStyle }
+      >
       { children }
       </Text>
     </View>
@@ -32,8 +35,6 @@ ListHeader.propTypes = {
   textToUpper: PropTypes.bool,
   children: PropTypes.string
 };
-
-export default ListHeader;
 
 export {
   ListHeader

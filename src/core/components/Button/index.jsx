@@ -26,7 +26,10 @@ const Button = ({
       onPress={ goTo }
       style={[button,style]}
     >
-      <Text style={ styleText }>{children}</Text>
+      <Text 
+        testID='text-button' 
+        style={ styleText }
+      >{children}</Text>
     </TouchableOpacity>
   )
 }
@@ -39,12 +42,10 @@ Button.defaultProps = {
 
 Button.propTypes = {
   style: PropTypes.object,
-  onPress: PropTypes.func,
   size: PropTypes.string,
-  children: PropTypes.string,
+  onPress: PropTypes.func,
+  children: PropTypes.string.isRequired,
 }
-
-export default Button;
 
 export {
   Button

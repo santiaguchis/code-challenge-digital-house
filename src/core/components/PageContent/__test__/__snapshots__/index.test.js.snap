@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContent core/component Check snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      Hello Page Content
+    </Text>
+  </View>
+</View>
+`;

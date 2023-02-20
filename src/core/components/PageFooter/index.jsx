@@ -16,8 +16,6 @@ const PageFooter = ({
   )
 }
 
-export default PageFooter;
-
 export {
   PageFooter
 }

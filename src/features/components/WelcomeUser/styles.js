@@ -1,9 +1,10 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, StatusBar } from 'react-native';
 
 import { theme } from 'src/core/utils/styles';
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: StatusBar.currentHeight,
   },
   title: {
     color: theme.colors.primaryText,

@@ -16,8 +16,6 @@ const PageContent = ({
   )
 }
 
-export default PageContent;
-
 export {
   PageContent
 }

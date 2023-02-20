@@ -37,8 +37,6 @@ ListItem.propTypes = {
   children: PropTypes.any
 }
 
-export default ListItem;
-
 export {
   ListItem
 }

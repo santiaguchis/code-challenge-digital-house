@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react';
-import { StatusBar } from 'expo-status-bar';
 
 import { AppContext } from '../../../contexts/AppContext';
 import { useMovements } from 'src/hooks/useMovements';
@@ -36,7 +35,6 @@ const Home = () => {
       <PageFooter>
         <Actions />
       </PageFooter>
-      <StatusBar style="auto" />
     </Page>
   )
 }

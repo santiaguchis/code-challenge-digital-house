@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List core/component Check snapshot 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <Text>
+        Hello List
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;

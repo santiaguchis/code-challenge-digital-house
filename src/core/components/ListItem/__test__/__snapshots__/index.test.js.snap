@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem core/component Check snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <View>
+    <Text>
+      Hello List Item
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "justifyContent": "center",
+        "marginLeft": 10,
+        "width": 14,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 20,
+          "fontWeight": "800",
+        }
+      }
+    >
+      &gt;
+    </Text>
+  </View>
+</View>
+`;

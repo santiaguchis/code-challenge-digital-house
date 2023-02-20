@@ -49,6 +49,7 @@ const ProductItem = ({
     >
       <View style={ figure }>
         <Image
+          testID='image'
           style={ productImage }
           source={{ uri: image }}
         />
