@@ -2,7 +2,11 @@
 
 exports[`<WelcomeUser /> features/component Check snapshot 1`] = `
 <View
-  style={{}}
+  style={
+    {
+      "marginTop": null,
+    }
+  }
 >
   <Text
     style={

@@ -6,7 +6,6 @@ exports[`Page core/component Check snapshot 1`] = `
     {
       "backgroundColor": "#F8F8F8",
       "flex": 1,
-      "marginTop": null,
     }
   }
 >

@@ -6,7 +6,6 @@ exports[`<HomeScreen /> features/screens Check snapshot 1`] = `
     {
       "backgroundColor": "#F8F8F8",
       "flex": 1,
-      "marginTop": null,
     }
   }
 >
@@ -20,7 +19,11 @@ exports[`<HomeScreen /> features/screens Check snapshot 1`] = `
     }
   >
     <View
-      style={{}}
+      style={
+        {
+          "marginTop": null,
+        }
+      }
     >
       <Text
         style={
