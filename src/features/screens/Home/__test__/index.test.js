@@ -17,6 +17,12 @@ describe('<HomeScreen /> features/screens', () => {
     expect(component).toBeDefined();
   })
 
+  it('Check text in component', () => {
+    const TextInButton = 'Ganados'
+    const textInComponent = screen.getByText(TextInButton);
+    expect(textInComponent).toHaveTextContent(TextInButton);
+  })
+
   it('Check snapshot', () => {
     expect(screen.toJSON()).toMatchSnapshot();
   })
